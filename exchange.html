@@ -22,12 +22,39 @@
 	<div class='ybwechatheader_wrapper'>
 		<a class='left_btn back_btn' href='javascript:;'>
 			<span class="ybiconfont ybicon-backward2"></span>
-			
 		</a>
 		<label>下单</label>
 	</div>
 	<div class='main_container pricecalculator_main_container'>
-		
+		<div class='common_block_wrapper'>
+
+		</div>
+		<div class="common_btn_wrapper bg_f0eff3">
+			<a class="common_btn_item btn_halfwidth round" href="javascript:;">买入</a>
+			<a class="common_btn_item btn_halfwidth round cancel" href="javascript:;">卖出</a>
+		</div>
+		<div class='common_block_wrapper'>
+			<div class='common_priceindicator_item'>
+				<label>最新</label>
+				<span class='color_389348'>17.88(-10.02%)</span>
+			</div>
+			<div class='common_priceindicator_item'>
+				<label>涨停</label>
+				<span class='color_389348'>21.86</span>
+			</div>
+			<div class='common_priceindicator_item'>
+				<label>跌停</label>
+				<span class='color_389348'>17.88</span>
+			</div>
+		</div>
+		<div class='common_block_wrapper'>
+			<p class='common_smalltitle'>类型</p>
+			<select class='common_pulldownmenu_wrapper'>
+				<option>限价委托</option>
+				<option>限价委托</option>
+				<option>限价委托</option>
+			</select>
+		</div>
 	</div>
 </body>
 <script type="text/javascript" src='assets/js/jquery.min.js'></script>
@@ -37,9 +64,10 @@
 <script type="text/javascript">
 $(function() {
 	$.remResizing({
-		fontsize: 20
+		fontsize: 20,
+		basedonnarrow: true
 	});
-	
+
 })
 </script>
 
