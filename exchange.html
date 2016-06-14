@@ -11,36 +11,43 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 	<title>下单</title>
 	<!-- build:css ../css/m.all.min.css -->
-	<link rel="stylesheet" type="text/css" href="css/m_reset.css" />
-	<link rel="stylesheet" type="text/css" href="css/m_common.css" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/common.css" />
 	<link rel="stylesheet" type="text/css" href="css/index.css" />
 	<!-- endbuild -->
-	<link rel="stylesheet" href="http://at.alicdn.com/t/font_1464916563_8422954.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="http://at.alicdn.com/t/font_1465947900_1291006.css" type="text/css" media="all" />
 </head>
 
 <body>
 	<div class='ybwechatheader_wrapper'>
 		<a class='left_btn back_btn' href='javascript:;'>
-			<span class="ybiconfont ybicon-backward2"></span>
+			<span class="iconfont icon-backward2"></span>
 		</a>
 		<label>下单</label>
 	</div>
 	<div class='main_container pricecalculator_main_container'>
-		<div class='common_block_wrapper'>
-
+		<div class='exchange_dealer_item common_block_wrapper'>
+			<span class='dealerlogo'>
+				<img src="img/pinganzhegnquan.jpg">
+			</span>
+			<p>平安证券</p>
 		</div>
 		<div class="common_btn_wrapper bg_f0eff3">
-			<a class="common_btn_item btn_halfwidth round" href="javascript:;">买入</a>
-			<a class="common_btn_item btn_halfwidth round cancel" href="javascript:;">卖出</a>
+			<a class="common_btn_item btn_halfwidth active" href="javascript:;">买入</a>
+			<a class="common_btn_item btn_halfwidth" href="javascript:;">卖出</a>
 		</div>
 		<div class='common_block_wrapper'>
+			<p class='common_smalltitle_item'>股票</p>
+			<label class='exchange_stockname_item'>海利生物 603718</label>
+		</div>
+		<div class='common_block_wrapper bg_f0eff3'>
 			<div class='common_priceindicator_item'>
 				<label>最新</label>
 				<span class='color_389348'>17.88(-10.02%)</span>
 			</div>
 			<div class='common_priceindicator_item'>
 				<label>涨停</label>
-				<span class='color_389348'>21.86</span>
+				<span class='color_d14035'>21.86</span>
 			</div>
 			<div class='common_priceindicator_item'>
 				<label>跌停</label>
@@ -48,12 +55,125 @@
 			</div>
 		</div>
 		<div class='common_block_wrapper'>
-			<p class='common_smalltitle'>类型</p>
-			<select class='common_pulldownmenu_wrapper'>
-				<option>限价委托</option>
-				<option>限价委托</option>
-				<option>限价委托</option>
-			</select>
+			<div class='exchange_tradesetting_wrapper'>
+				<p class='common_smalltitle_item'>类型</p>
+				<select class='common_pulldownmenu_wrapper'>
+					<option>限价委托</option>
+					<option>限价委托</option>
+					<option>限价委托</option>
+				</select>
+				<div class='exchange_counter_wrapper'>
+					<p class='common_smalltitle_item'>价格</p>
+					<div class='exchange_pricecounter_wrapper'>
+						<p>17.88</p>
+						<ul class='common_counter_item'>
+							<li>
+								<a href="javascript:;">
+									<span class='iconfont icon-minus3'></span>
+									<i>0.01</i>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<span class='iconfont icon-add3'></span>
+									<i>0.01</i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class='exchange_counter_wrapper'>
+					<p class='common_smalltitle_item'>数量</p>
+					<div class='exchange_quantitycounter_wrapper'>
+						<p class='disabled'>最大可买<span>0</span></p>
+						<ul class='common_counter_item'>
+							<li>
+								<a href="javascript:;">
+									<span class='iconfont icon-minus3'></span>
+									<i>100</i>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<span class='iconfont icon-add3'></span>
+									<i>100</i>
+								</a>
+							</li>
+						</ul>
+						<ul class='exchange_proportioncounter_wrapper'>
+							<li>
+								<a href="javascript:;">1/3</a>
+							</li>
+							<li>
+								<a href="javascript:;">1/2</a>
+							</li>
+							<li>
+								<a href="javascript:;">全仓</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class='exchange_prevailingprice_wrapper'>
+				<ul class='sell'>
+					<li>
+						<label>卖5</label>
+						<p>17.92</p>
+						<span>2</span>
+					</li>
+					<li class='active'>
+						<label>卖4</label>
+						<p>17.92</p>
+						<span>2</span>
+					</li>
+					<li>
+						<label>卖3</label>
+						<p>17.92</p>
+						<span>107</span>
+					</li>
+					<li>
+						<label>卖2</label>
+						<p>17.92</p>
+						<span>1155</span>
+					</li>
+					<li>
+						<label>卖1</label>
+						<p>17.92</p>
+						<span>11556</span>
+					</li>
+				</ul>
+				<ul class='buy'>
+					<li>
+						<label>买1</label>
+						<p>17.92</p>
+						<span>2</span>
+					</li>
+					<li>
+						<label>买2</label>
+						<p>17.92</p>
+						<span>2</span>
+					</li>
+					<li>
+						<label>买3</label>
+						<p>17.92</p>
+						<span>2</span>
+					</li>
+					<li>
+						<label>买4</label>
+						<p>17.92</p>
+						<span>2</span>
+					</li>
+					<li>
+						<label>买5</label>
+						<p>17.92</p>
+						<span>2</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class='exchange_placeorder_wrapper'>
+			<p class='charge'>手续费：<label>0.00</label>元（参考）<span class='iconfont icon-helphollow'></span></p>
+			<a class='common_btn_item btn_fullwidth active' href="javascript:;">买&nbsp&nbsp入</a>
 		</div>
 	</div>
 </body>
@@ -68,6 +188,9 @@ $(function() {
 		basedonnarrow: true
 	});
 
+	function aaa(){
+
+	}
 })
 </script>
 

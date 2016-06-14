@@ -1,1 +1,126 @@
 @charset 'utf-8';
+.exchange_dealer_item{
+	
+}
+.exchange_dealer_item .dealerlogo{
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
+	vertical-align: middle;
+}
+.exchange_dealer_item .dealerlogo img{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.exchange_dealer_item p{
+	display: inline-block;
+	margin: 0 0.5rem;
+	vertical-align: middle;
+	font-size: 0.7rem;
+}
+.exchange_stockname_item{
+	display: block;
+	font-size: 0.7rem;
+}
+.exchange_counter_wrapper {
+	padding: 0.2rem 0 0.4rem 0;
+	width: 9rem;
+	border-top: 1px solid #ddd;
+}
+.exchange_counter_wrapper p {
+	display: inline-block;
+	width: 5rem;
+	vertical-align: middle;
+}
+.exchange_counter_wrapper div {
+	font-size: 0.7rem;
+}
+.exchange_counter_wrapper .common_counter_item {
+	vertical-align: middle;
+}
+.exchange_pricecounter_wrapper p {
+	color: #333;
+}
+.exchange_tradesetting_wrapper {
+	display: inline-block;
+	width: 60%;
+}
+.exchange_proportioncounter_wrapper {
+	text-align: center;
+}
+.exchange_proportioncounter_wrapper li {
+	display: inline-block;
+	width: 2rem;
+	height: 1rem;
+	line-height: 1.1rem;
+	text-align: center;
+	border: 1px solid #ddd;
+	font-size: 0.6rem;
+	
+}
+.exchange_proportioncounter_wrapper li a{
+	display: block;
+	color: #0077ee;
+}
+.exchange_quantitycounter_wrapper .exchange_proportioncounter_wrapper {
+	padding: 1rem 0 0 0;
+}
+.exchange_prevailingprice_wrapper {
+	display: inline-block;
+	width: 6rem;
+	vertical-align: top;
+}
+.exchange_prevailingprice_wrapper ul {
+	margin: 0.17rem 0 0 0;
+	width: 100%;
+}
+.exchange_prevailingprice_wrapper .sell{
+	border-bottom: 1px solid #ddd;
+}
+.exchange_prevailingprice_wrapper ul li {
+	padding: 0 0.2rem;
+	width: 100%;
+	height: 1rem;
+	font-size: 0;
+	box-sizing: border-box;
+}
+.exchange_prevailingprice_wrapper ul .active {
+	background-color: #edf0f4;
+}
+.exchange_prevailingprice_wrapper label {
+	display: inline-block;
+	width: 1rem;
+	text-align: center;
+	font-size: 0.6rem;
+	vertical-align: middle;
+}
+.exchange_prevailingprice_wrapper p {
+	display: inline-block;
+	width: 2.8rem;
+	text-align: center;
+	font-size: 0.6rem;
+	vertical-align: middle;
+}
+.exchange_prevailingprice_wrapper .sell p {
+	color: #338b4a;
+}
+.exchange_prevailingprice_wrapper span {
+	display: inline-block;
+	width: 1.8rem;
+	text-align: right;
+	font-size: 0.6rem;
+	vertical-align: middle;
+}
+.exchange_placeorder_wrapper .charge{
+	margin: 0 0 0.2rem 0;
+	font-size: 0.6rem;
+	color: #999;
+}
+.exchange_placeorder_wrapper{
+	padding: 0.5rem 0.5rem 3rem 0.5rem;
+	background-color: #f0eff3;
+}
+.exchange_placeorder_wrapper span{
+	vertical-align: middle;
+}
