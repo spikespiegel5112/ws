@@ -191,23 +191,6 @@
 	height: 100%;
 	color: #000;
 }
-.ybwechatbtn_item {
-	font-size: 1em;
-	line-height: 1.5em;
-	display: block;
-	margin: 0 auto;
-	padding: .4em 3.5em;
-	text-align: center;
-	color: #fff;
-	background: #89c539;
-}
-.ybwechatbtn_item:active {
-	color: #76b522;
-	background: #90cc3d;
-}
-.ybwechatbtn_item[disable='disable'] {
-	background: #d1d1d1;
-}
 .add_btn, .accept_button {
 	line-height: 1em;
 	float: right;
